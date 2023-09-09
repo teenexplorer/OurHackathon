@@ -146,7 +146,9 @@
         "Who is a employee in mines?",
         "Who can be said to be employed in a mine.",
         "How can one be a mine employee?",
-        "Define mine employee"
+        "Define mine employee",
+        "Who is a mine employee.",
+        "Who is employed in a mine?"
       ],
       "responses": [
         "a person is said to be 'employed' in a mine who works as the manager or who works under appointment by the owner, agent or manager of the mine or with the knowledge of the manager."
@@ -158,7 +160,8 @@
         "What is the criteria for someone to be employed.",
         "Criteria of employement",
         "in any mining operations(including the concomitant operations of handling and transport of minerals up to the point of despatch and of gathering sand and transport thereof to the mine)",
-        "in operations or services relating to the development of the mine"
+        "in operations or services relating to the development of the mine",
+        "criteria to be employed"
       ],
       "responses": [
         "A person is said to be employed if involved in: \n1. in any mining operation\n2. in operations or services relating to the development of the mine\n3. in operating, servicing, maintaining or repairing any part of any machinery used in or about the mine\n4.in operations, within the premises of the mine, of loading for despatch of minerals\n5. in any office of the mine, health, welfare, sanitary or conservancy or any operation connected to the mines"
@@ -171,14 +174,16 @@
         "Who are not considered employed?",
         "When is someone said to be not employed",
         "Not a employee?",
-        "When is someone not employed in mining industry."
+        "When is someone not employed in mining industry.",
+        "Who is not employed",
+        "Who is not employed in mines"
       ],
       "responses": [
         "People who are not directly connected to the works in mines like builing of roads,wells, construction of houses, etc."
       ]
     },
     {
-      "tag": "inspectordef",
+      "tag": "inspectordef1952",
       "patterns": [
         "Who is an inspector in mining industry?",
         "What is inspector?",
@@ -210,6 +215,521 @@
       ],
       "responses": [
         "Mines include:\n1. all borings, bore holes, oil wells and accessory crude conditioning plants, including the pipe conveying mineral oil within the oilfields\n2. all shafts, in or adjacent to and belonging to a mine, whether in the course of being sunk or not\n3. all levels and inclined planes in the course of being driven\n4. all open cast workings\n5. all conveyors or aerial rope ways provided for the bringing into or removal from a mine of minerals or other articles or for the removal of refuse therefrom.\n6. all adits, levels, planes, machinery, works, railways, tramways and sidings in or adjacent to and belonging to a mine.\n7. all protective works being carried out in or adjacent to a mine\n8. all workshops and stores situated within the precincts of a mine and under the same management and used primarily for the purposes connected with that mine or a number of mines under the same management.\n9.all power stations, transformer sub-stations, convertor stations, rectifier stations and accumulator storage stations for supplying electricity solely or mainly for the purpose of working the mine or a number of mines under the same management.\n10.  any premises for the time being used for depositing sand or other material for use in a mine or for depositing refuse from a mine or in which any operations in connection with such sand, refuse or other material is being carried on, being premises exclusively occupied by the owner of the mine.\n11. any premises in or adjacent to and belonging to a mine."
+      ]
+    },
+    {
+      "tag": "officeofmines1952",
+      "patterns": [
+        "What is office of mines?",
+        "What is mines office?",
+        "Define office of mines.",
+        "Office of mines",
+        "Mines office"
+      ],
+      "responses": [
+        "Office of mines means an office at the surface of the mine concerned"
+      ]
+    },
+    {
+      "tag": "open_cast_workingdef1952",
+      "patterns": [
+          "What is open cast working?",
+          "Define open cast working.",
+          "Tell me about open cast working.",
+          "What does open cast working mean?",
+          "Explain open cast working.",
+          "Give me information about open cast working.",
+          "How is open cast working defined?"
+      ],
+      "responses": [
+          "Open cast working refers to a quarry, which is an excavation where operations for searching for or obtaining minerals are carried out. It does not include shafts or excavations that extend below superjacent ground."
+      ]
+    },
+    {
+      "tag": "mine_owner_definitiondef1952",
+      "patterns": [
+          "What is the definition of 'owner' in relation to a mine?",
+          "Define 'owner' in the context of a mine.",
+          "Who is considered the 'owner' of a mine?",
+          "Explain the term 'owner' as it relates to a mine.",
+          "Tell me about the definition of 'owner' in mining.",
+          "What does the term 'owner' mean for a mine?",
+          "Who qualifies as the 'owner' of a mine?",
+          "What are the criteria for determining the 'owner' of a mine?",
+          "Who is owner of mines?",
+          "Define owner of mines."
+      ],
+      "responses": [
+          "In the context of a mine, 'owner' refers to any person who is the immediate proprietor, lessee, or occupier of the mine or any part thereof. This definition also includes a liquidator or receiver if the mine's business is being carried on by them. However, it does not include a person who merely receives a royalty, rent, or fine from the mine, or someone who is merely the proprietor of the mine, subject to any lease, grant, or license for its working, or someone who only owns the soil and has no interest in the minerals of the mine."
+      ]
+    },
+    {
+      "tag": "definition_prescribeddef1952",
+      "patterns": [
+          "What is the meaning of 'prescribed'?",
+          "Define 'prescribed' as per regulations.",
+          "Can you explain 'prescribed'?",
+          "What does 'prescribed' mean in terms of rules and regulations?",
+          "Tell me the definition of 'prescribed'."
+      ],
+      "responses": [
+          "'Prescribed' means determined or specified by rules, regulations, or bye-laws, as applicable in a particular context.",
+          "In legal terms, 'prescribed' means determined or specified by rules, regulations, or bye-laws, as applicable in a particular context.",
+          "The term 'prescribed' refers to what is determined or specified by rules, regulations, or bye-laws, as needed in a given situation."
+      ]
+    },
+    {
+      "tag": "qualified_medical_practitioner_definition_def1952",
+      "patterns": [
+          "What is the definition of a 'qualified medical practitioner'?",
+          "Explain the term 'qualified medical practitioner'.",
+          "Define 'qualified medical practitioner' according to Indian Medical Council Act, 1956.",
+          "Who qualifies as a 'qualified medical practitioner'?",
+          "Tell me about the requirements for being a 'qualified medical practitioner'.",
+          "What is meant by a 'qualified medical practitioner'?",
+          "Give me the definition of a 'qualified medical practitioner'.",
+          "Who can be considered a 'qualified medical practitioner'?"
+      ],
+      "responses": [
+          "A 'qualified medical practitioner' refers to a medical practitioner who possesses any recognized medical qualification as defined in clause (h) of section 2 of the Indian Medical Council Act, 1956 (102 of 1956) and who is enrolled on a State medical register as defined in clause (k) of that section.",
+          "In the context of the Indian Medical Council Act, 1956, a 'qualified medical practitioner' is someone with a recognized medical qualification as defined in clause (h) of section 2 and is also enrolled on a State medical register as defined in clause (k) of that section.",
+          "To be considered a 'qualified medical practitioner,' an individual must hold a recognized medical qualification as specified in clause (h) of section 2 of the Indian Medical Council Act, 1956, and be enrolled on a State medical register as defined in clause (k) of that section.",
+          "A 'qualified medical practitioner' in India is a medical practitioner who meets the criteria set out in clause (h) of section 2 of the Indian Medical Council Act, 1956, and is also enrolled on a State medical register as defined in clause (k) of that section.",
+          "The term 'qualified medical practitioner' is defined in accordance with the Indian Medical Council Act, 1956, and it includes individuals with recognized medical qualifications mentioned in clause (h) of section 2 who are also registered on a State medical register as defined in clause (k) of that section.",
+          "In India, a 'qualified medical practitioner' is someone who holds a recognized medical qualification as specified in clause (h) of section 2 of the Indian Medical Council Act, 1956, and is enrolled on a State medical register as defined in clause (k) of that section.",
+          "A 'qualified medical practitioner' under the Indian Medical Council Act, 1956, is a medical practitioner with a recognized medical qualification as per clause (h) of section 2 and who is enrolled on a State medical register as defined in clause (k) of that section.",
+          "To be considered a 'qualified medical practitioner' in India, one must possess a recognized medical qualification as defined in clause (h) of section 2 of the Indian Medical Council Act, 1956, and also be enrolled on a State medical register as defined in clause (k) of that section."
+      ]
+    },
+    {
+      "tag": "regulations_rules_bye-laws_definition_def1952",
+      "patterns": [
+          "What do 'regulations' mean under this Act?",
+          "Explain the term 'rules' as per this Act.",
+          "Define 'bye-laws' under this Act.",
+          "What is the definition of 'regulations' in this context?",
+          "Tell me about 'rules' and 'bye-laws' under this Act.",
+          "What are 'rules' and 'regulations?"
+      ],
+      "responses": [
+          "'Regulations,' 'rules,' and 'bye-laws' refer to regulations, rules, and bye-laws made under this Act, respectively.",
+          "In the context of this Act, 'regulations' mean regulations made under this Act. 'Rules' refer to rules made under this Act, and 'bye-laws' are bye-laws made under this Act.",
+          "Under this Act, 'regulations' are regulations made pursuant to this Act, 'rules' are rules made under this Act, and 'bye-laws' are bye-laws made under this Act.",
+          "In this Act, 'regulations' are regulations made in accordance with this Act, 'rules' are rules made under this Act, and 'bye-laws' are bye-laws made under this Act.",
+          "'Regulations,' 'rules,' and 'bye-laws' in this context all pertain to the respective documents and rules established under this Act."
+      ]
+    },
+    {
+      "tag": "relay_and_shift_definition_def1952",
+      "patterns": [
+          "What is a 'relay' in this context?",
+          "Define 'relay' as mentioned here.",
+          "What is meant by 'shift' in this context?",
+          "Explain 'relay' and 'shift' as per this description.",
+          "Tell me about 'relay' and 'shift' in this context.",
+          "How are 'relay' and 'shift' defined here?",
+          "What is relay?",
+          "What is Shift?",
+          "What is relay and shift?"
+      ],
+      "responses": [
+          "In this context, where work of the same kind is carried out by two or more sets of persons working during different periods of the day, each of these sets is called a 'relay.' Additionally, each of these periods is referred to as a 'shift.'",
+          "A 'relay' in this context is used to describe each set of persons who carry out work of the same kind during different periods of the day. Meanwhile, each of these periods is termed a 'shift.'",
+          "'Relay' in this context refers to a set of persons who perform similar work during different time periods of the day. 'Shift' denotes each of these time periods in which work is carried out by different sets of persons.",
+          "In the given context, 'relay' represents a group of individuals performing similar work at different times of the day. 'Shift' is the term used for each of these time periods during which work is conducted by distinct sets of individuals.",
+          "As per this description, 'relay' is used to describe each group of individuals conducting similar work during different periods of the day, while 'shift' is the term used to denote these individual time periods."
+      ]
+    },
+    {
+      "tag": "reportable_injury_definition_def1952",
+      "patterns": [
+          "What does 'reportable injury' mean?",
+          "Define 'reportable injury' as per this description.",
+          "Explain the term 'reportable injury'.",
+          "What is meant by a 'reportable injury' here?",
+          "Tell me about the definition of 'reportable injury'.",
+          "How is a 'reportable injury' defined in this context?",
+          "What qualifies as a 'reportable injury' in this description?",
+          "What is reportable injury?"
+      ],
+      "responses": [
+          "'Reportable injury' in this context refers to any injury, other than a serious bodily injury, which involves, or is highly likely to involve, the enforced absence of the injured person from work for a period of seventy-two hours or more.",
+          "As per this description, a 'reportable injury' is an injury, excluding serious bodily injuries, that results in or is likely to result in the injured person being unable to work for a period of seventy-two hours or longer.",
+          "In this context, 'reportable injury' means any injury, except for a serious bodily injury, that will result in or is likely to result in the injured person's absence from work for a duration of seventy-two hours or more."
+      ]
+    },
+    {
+      "tag": "serious_bodily_injury_definition_def1952",
+      "patterns": [
+          "What is the definition of 'serious bodily injury'?",
+          "Define 'serious bodily injury' according to this description.",
+          "Explain the term 'serious bodily injury'.",
+          "What constitutes a 'serious bodily injury' here?",
+          "Tell me about the definition of 'serious bodily injury'.",
+          "How is 'serious bodily injury' defined in this context?",
+          "What qualifies as a 'serious bodily injury' based on this definition?"
+      ],
+      "responses": [
+          "'Serious bodily injury' in this context refers to any injury that involves, or is highly likely to involve, the permanent loss of any part or section of a body, the permanent loss of or injury to the sight or hearing, any permanent physical incapacity, or the fracture of any bone or one or more joints or bones of any phalanges of the hand or foot.",
+          "As per this description, a 'serious bodily injury' is an injury that results in or is highly likely to result in the permanent loss of any part or section of a body, the permanent loss of or injury to sight or hearing, any permanent physical incapacity, or the fracture of any bone or one or more joints or bones of any phalanges of the hand or foot.",
+          "In this context, 'serious bodily injury' means any injury that leads to, or is highly likely to lead to, the permanent loss of any part or section of a body, permanent loss of or injury to sight or hearing, permanent physical incapacity, or the fracture of any bone or one or more joints or bones of any phalanges of the hand or foot."
+      ]
+    },
+    {
+      "tag": "week_definition_def1952",
+      "patterns": [
+          "What is the definition of a 'week'?",
+          "Define 'week' as per this description.",
+          "Explain the term 'week'.",
+          "What does 'week' mean?",
+          "Tell me about the definition of a 'week'.",
+          "What is week?",
+          "Define week."
+      ],
+      "responses": [
+          "In this context, a 'week' is defined as a period of seven days beginning at midnight on Saturday night. However, it may also begin on another night if approved in writing for a particular area by the Chief Inspector or an Inspector.",
+          "As per this description, a 'week' is a period of seven days that starts at midnight on Saturday night. It can also start on another night if it has been approved in writing for a specific area by the Chief Inspector or an Inspector."
+      ]
+    },
+    {
+      "tag": "working_below_ground_def1952",
+      "patterns": [
+          "What is the definition of 'working below ground' in a mine?",
+          "Define 'working below ground' in the context of mining.",
+          "Explain the term 'below ground' for mine workers.",
+          "How is 'working below ground' defined for mine employees?",
+          "Tell me about the criteria for 'working below ground' in mining.",
+          "When can an employee be considered working below ground?",
+          "What is working below ground?",
+          "What does Working below ground mean?"
+      ],
+      "responses": [
+          "In the context of mining, a person is considered to be 'working below ground' if they are working or employed in a shaft that has been or is being sunk, or if they are working in any excavation that extends below superjacent ground."
+      ]
+    },
+    {
+      "tag": "working_above_ground_def1952",
+      "patterns": [
+          "What is the definition of 'working above ground' in a mine?",
+          "Define 'working above ground' in the context of mining.",
+          "Explain the term 'above ground' for mine workers.",
+          "How is 'working above ground' defined for mine employees?",
+          "Tell me about the criteria for 'working above ground' in mining.",
+          "When can an employee be considered working above ground?",
+          "What is working above ground?",
+          "What does Working above ground mean?",
+          "what do you mean by working above ground?"
+      ],
+      "responses": [
+          "In the context of mining, a person is considered to be 'working above ground' if they are working in an open cast working or in any other manner not specified in the definition of 'working below ground' as described previously."
+      ]
+    },
+    {
+      "tag": "act_not_applying_certain_cases_1952",
+      "patterns": [
+          "Which provisions of the Coal Act 1952 do not apply in certain cases?",
+          "Can you explain when the Coal Act 1952 does not apply?",
+          "When does The Coal Act 1952 not apply?",
+          "Tell me about the exceptions to the application of The Coal Act 1952.",
+          "What are the conditions under which The Coal Act 1952 does not apply?",
+          "Explain the cases in which The Coal Act 1952 does not apply.",
+          "Under what circumstances does the Coal Act 1952 not apply?",
+          "When are the provisions of The Coal Act 1952 exempted?",
+          "When is The Coal Act 1952 not applicable?"
+      ],
+      "responses": [
+          "The provisions of this Act, except those contained in sections 7, 8, 9, 40, 45, and 46, do not apply to: (a) any mine or part thereof used for prospecting purposes only, not for obtaining minerals for use or sale, and (b) any mine engaged in the extraction of specific materials as mentioned in the Act.",
+          "In certain cases, this Act excludes certain provisions, namely sections 7, 8, 9, 40, 45, and 46. These cases include (a) mines used solely for prospecting and (b) mines extracting specific materials as defined in the Act.",
+          "This Act does not apply under specific circumstances, excluding sections 7, 8, 9, 40, 45, and 46. These circumstances involve (a) mines exclusively for prospecting and (b) mines engaged in the extraction of specific materials as outlined in the Act.",
+          "Exceptions to the application of this Act, excluding sections 7, 8, 9, 40, 45, and 46, occur in cases involving (a) mines used solely for prospecting and (b) mines extracting specific materials, provided that specific conditions are met.",
+          "Under certain circumstances, specified provisions of this Act do not apply, except for sections 7, 8, 9, 40, 45, and 46. These circumstances encompass (a) mines engaged in prospecting only and (b) mines extracting particular materials, subject to conditions.",
+          "This Act exempts certain cases from its provisions, excluding sections 7, 8, 9, 40, 45, and 46. These cases include (a) mines exclusively for prospecting and (b) mines involved in the extraction of specific materials, provided specific conditions are satisfied.",
+          "Exceptions to the application of this Act, excluding sections 7, 8, 9, 40, 45, and 46, occur when (a) mines are used solely for prospecting and (b) mines are engaged in extracting specific materials, subject to specific conditions.",
+          "In certain instances, this Act does not apply, with the exception of sections 7, 8, 9, 40, 45, and 46. These instances involve (a) mines used exclusively for prospecting and (b) mines extracting particular materials, provided specific conditions are met."
+      ]
+    },
+    {
+      "tag": "coal_act_time_references_def_1952",
+      "patterns": [
+          "What does the Coal Act of 1952 mean by references to time of day?",
+          "Define the references to time of day in the Coal Act of 1952.",
+          "Explain the term 'Indian standard time' in the context of the Coal Act of 1952.",
+          "How are references to time of day defined in the Coal Act of 1952?",
+          "Tell me about the time references in the Coal Act of 1952.",
+          "When the Coal Act of 1952 mentions time of day, what does it refer to?",
+          "What is the significance of Indian standard time in the Coal Act of 1952?",
+          "Can you clarify the references to time of day in the Coal Act of 1952?",
+          "What is time of day in the Coal Act of 1952"
+      ],
+      "responses": [
+          "In the Coal Act of 1952, references to time of day specifically refer to Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "As per the Coal Act of 1952, when it mentions time of day, it is indicating Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "The Coal Act of 1952 defines references to time of day as Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "References to time of day in the Coal Act of 1952 are based on Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "When the Coal Act of 1952 mentions time of day, it is making reference to Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "Indian standard time, being five and a half hours ahead of Greenwich mean time, is what is meant by references to time of day in the Coal Act of 1952.",
+          "In the Coal Act of 1952, any mentions of time of day are in relation to Indian standard time, which is five and a half hours ahead of Greenwich mean time.",
+          "The references to time of day in the Coal Act of 1952 specifically pertain to Indian standard time, which is five and a half hours ahead of Greenwich mean time."
+      ]
+    },
+    {
+      "tag": "indian_standard_time_rules_1952",
+      "patterns": [
+          "What does the provision say about Indian standard time?",
+          "Explain the rules related to Indian standard time.",
+          "Can you clarify the Indian standard time rules?",
+          "Tell me about the Central Government's authority regarding Indian standard time.",
+          "How does the Central Government handle Indian standard time in certain areas?",
+          "What are the provisions for areas where Indian standard time is not observed?",
+          "Explain the conditions under which Indian standard time rules may be applied.",
+          "What are the requirements for applying local mean time in certain areas?",
+          "When can the Central Government make rules regarding Indian standard time?",
+          "Can you provide details about the Central Government's authority to make rules for Indian standard time?"
+      ],
+      "responses": [
+          "According to the provision, the Central Government has the authority to make rules regarding Indian standard time. These rules can specify areas, define local mean time, and permit the observation of local mean time in mines situated in those areas.",
+          "The provision allows the Central Government to create rules for Indian standard time. These rules can identify specific areas, define local mean time, and allow mines in those areas to observe local mean time.",
+          "The rules related to Indian standard time, as per this provision, grant authority to the Central Government. They enable the Central Government to specify areas, define local mean time, and permit its observation in mines within those areas.",
+          "The Central Government has the power to regulate Indian standard time through rules. These rules can include specifying areas, defining local mean time, and allowing mines to use local mean time in those areas.",
+          "In cases where Indian standard time is not ordinarily observed, the Central Government can make rules. These rules specify the area, define the local mean time typically observed there, and permit the use of local mean time in mines within that area.",
+          "The provision outlines that the Central Government can establish rules for Indian standard time. These rules specify the area, define the local mean time usually observed, and allow the use of local mean time in mines within the specified area.",
+          "Rules concerning Indian standard time can be established by the Central Government. These rules identify the area, define the local mean time usually observed, and authorize the use of local mean time in mines within that area.",
+          "The Central Government's authority includes the ability to create rules for Indian standard time. These rules specify the area, define local mean time, and permit its use in mines within that area.",
+          "For areas where Indian standard time is not typically observed, the Central Government may create rules. These rules include specifying the area, defining local mean time, and allowing the use of local mean time in mines within that area.",
+          "The Central Government's authority encompasses the creation of rules for Indian standard time. These rules specify areas, define local mean time, and authorize its use in mines within those areas."
+      ]
+    },
+    {
+      "tag": "coal_act_inspector_appointment_1952",
+      "patterns": [
+          "How are inspectors appointed under the Coal Act of 1952?",
+          "Can you explain the process of appointing inspectors in the Coal Act of 1952?",
+          "Tell me about the appointment of Chief Inspector of Mines under the Coal Act of 1952.",
+          "What qualifications are required for the appointment of inspectors under the Coal Act of 1952?",
+          "Who has the authority to appoint inspectors of mines as per the Coal Act of 1952?",
+          "Explain the role of the Central Government in appointing inspectors under the Coal Act of 1952.",
+          "What is the procedure for appointing Chief Inspector of Mines under the Coal Act of 1952?",
+          "Who can be appointed as Chief Inspector of Mines under the Coal Act of 1952?",
+          "What are the prescribed qualifications for Inspectors of Mines under the Coal Act of 1952?",
+          "Can you clarify the appointment process for inspectors under the Coal Act of 1952?",
+          "How is an inspectors appointed?",
+          "Appointment of inspectors of mines."
+      ],
+      "responses": [
+          "Under the Coal Act of 1952, the Central Government has the authority to appoint a person with prescribed qualifications as the Chief Inspector of Mines for all territories to which the Act extends. Additionally, individuals with the prescribed qualifications can be appointed as Inspectors of Mines subordinate to the Chief Inspector.",
+          "Inspectors under the Coal Act of 1952 are appointed through a process overseen by the Central Government. The Chief Inspector of Mines and subordinate Inspectors of Mines are appointed based on their possession of prescribed qualifications as specified in the Act.",
+          "As per the Coal Act of 1952, the Central Government appoints the Chief Inspector of Mines for all territories covered by the Act. Inspectors of Mines, who possess the prescribed qualifications, can also be appointed by the Central Government and serve under the Chief Inspector.",
+          "To be appointed as Chief Inspector of Mines or an Inspector of Mines under the Coal Act of 1952, individuals must possess specific qualifications as prescribed by the Act and the Central Government.",
+          "Inspectors of Mines, including the Chief Inspector, are appointed by the Central Government as specified in the Coal Act of 1952. The appointment is based on the individuals' possession of qualifications outlined in the Act and regulations.",
+          "The Central Government is responsible for appointing inspectors under the Coal Act of 1952. Qualifications as specified in the Act and regulations are necessary for appointment.",
+          "The appointment process for Chief Inspector of Mines under the Coal Act of 1952 is conducted by the Central Government. Individuals eligible for this role must meet the prescribed qualifications.",
+          "For the position of Chief Inspector of Mines under the Coal Act of 1952, individuals with prescribed qualifications are appointed by the Central Government. Similarly, the appointment of subordinate Inspectors of Mines follows the same criteria.",
+          "Inspectors of Mines, including the Chief Inspector, are appointed by the Central Government under the Coal Act of 1952. Qualifications outlined in the Act must be met for appointment.",
+          "The process of appointing inspectors under the Coal Act of 1952 involves the Central Government appointing a Chief Inspector of Mines with prescribed qualifications and appointing Inspectors of Mines with the same qualifications to serve under the Chief Inspector."
+      ]
+    },
+    {
+      "tag": "chief_inspector_restrictions_1952",
+      "patterns": [
+          "What are the eligibility criteria for Chief Inspector and Inspectors in mining?",
+          "Explain the appointment restrictions for Chief Inspector and Inspectors in mining.",
+          "Tell me about the qualifications required for Chief Inspector and Inspectors in mining.",
+          "Can you clarify the conditions for appointing Chief Inspector and Inspectors in mining?",
+          "Who is eligible for the positions of Chief Inspector and Inspectors in mining?",
+          "What are the rules regarding direct or indirect interests in mines for Chief Inspector and Inspectors in mining?",
+          "How does one become eligible for the role of Chief Inspector or Inspectors in mining?",
+          "Are there any restrictions on holding the office of Chief Inspector or Inspectors in mining?",
+          "How is someone eligible to be Cheif Inspector or Inspector of a mine?",
+          "Who are eligible to be Cheif Inspector or Inspector of a mine?"
+      ],
+      "responses": [
+          "Chief Inspector and Inspectors in mining must meet strict eligibility criteria. No person can be appointed or continue to hold such office if they have, or subsequently acquire, any direct or indirect interests in any mine or mining rights in India.",
+          "The appointment of Chief Inspector and Inspectors in mining is subject to clear eligibility criteria. Individuals cannot have any direct or indirect interests in any mine or mining rights in India, both during the appointment process and while holding the office.",
+          "To be eligible for the positions of Chief Inspector or Inspectors in mining, individuals must not have, either at the time of appointment or during their tenure, any direct or indirect interests in any mine or mining rights in India. This restriction is in place to ensure impartiality and prevent conflicts of interest.",
+          "The eligibility criteria for Chief Inspector and Inspectors in mining are straightforward: individuals cannot have any direct or indirect interests in any mine or mining rights in India. This rule applies both during the appointment process and their tenure.",
+          "Individuals who wish to become Chief Inspector or Inspectors in mining must meet specific qualifications and adhere to the regulation that prohibits any direct or indirect interests in any mine or mining rights in India.",
+          "Chief Inspector and Inspectors in mining are subject to strict eligibility rules. These rules prevent individuals from having any direct or indirect interests in any mine or mining rights in India, both at the time of appointment and during their tenure.",
+          "The appointment of Chief Inspector and Inspectors in mining is contingent on meeting certain qualifications and abiding by the rule that prohibits any direct or indirect interests in any mine or mining rights in India.",
+          "Eligibility for the positions of Chief Inspector or Inspectors in mining is governed by a key rule: individuals cannot have any direct or indirect interests in any mine or mining rights in India. This rule applies throughout the appointment process and their time in office."
+      ]
+    },
+    {
+      "tag": "district_magistrate_powers_long_1952",
+      "patterns": [
+          "What are the powers of the district magistrate in relation to mining?",
+          "Can you explain the role of the district magistrate as an Inspector in mining?",
+          "Tell me about the duties and powers of the district magistrate in mining.",
+          "How does the district magistrate exercise powers in mining?",
+          "What is the authority of the district magistrate as an Inspector?",
+          "Explain the role of the Central Government in overseeing the district magistrate's powers as an Inspector.",
+          "Under what circumstances can the district magistrate perform the duties of an Inspector?",
+          "Are there any limitations on the district magistrate's powers as an Inspector?"
+      ],
+      "responses": [
+          "The district magistrate has the authority to exercise the powers and perform the duties of an Inspector in mining, subject to the general or special orders of the Central Government.",
+          "In relation to mining, the district magistrate can act as an Inspector and has specific powers and duties. However, these powers are exercised under the general or special orders of the Central Government.",
+          "The district magistrate plays a role as an Inspector in mining activities, with powers and duties defined by the Central Government. These powers are subject to general or special orders issued by the Central Government.",
+          "The district magistrate's powers and duties as an Inspector in mining are granted under the authority of the Central Government. These powers can be exercised subject to general or special orders issued by the Central Government.",
+          "As an Inspector in mining, the district magistrate holds certain powers and duties. These powers are exercised under the oversight of the Central Government, and any actions are subject to general or special orders.",
+          "The Central Government has a role in overseeing the powers of the district magistrate when acting as an Inspector in mining. The district magistrate's actions are subject to general or special orders issued by the Central Government.",
+          "The district magistrate can perform the duties of an Inspector in mining, but the exercise of these powers is subject to the general or special orders of the Central Government.",
+          "While the district magistrate has powers as an Inspector in mining, these powers are not unlimited and are subject to the general or special orders of the Central Government."
+      ]
+    },
+    {
+      "tag": "district_magistrate_powers_sm_1952",
+      "patterns": [
+          "District magistrate powers in mining?",
+          "Explain district magistrate's role as Inspector in mining.",
+          "District magistrate's duties in mining?",
+          "Central Government orders for district magistrate as Inspector?",
+          "Limitations on district magistrate's Inspector powers?"
+      ],
+      "responses": [
+          "District magistrates can act as Inspectors in mining with powers and duties as per Central Government orders.",
+          "District magistrates serve as Inspectors in mining, following Central Government orders.",
+          "District magistrates, as Inspectors in mining, have specific duties and powers under Central Government orders.",
+          "District magistrates' Inspector powers in mining are subject to Central Government orders.",
+          "District magistrate's powers as Inspector are defined by Central Government orders."
+      ]
+    },
+    {
+      "tag": "chief_inspector_public_servant_1952",
+      "patterns": [
+          "Who are considered public servants under the The Coal act 1952?",
+          "Tell me about the legal status of the Chief Inspector and Inspectors.",
+          "Are Chief Inspectors and Inspectors considered public servants?",
+          "What is the definition of a public servant according to the Indian Penal Code?",
+          "Explain the status of the Chief Inspector and Inspectors under the law.",
+          "Do the Chief Inspector and Inspectors have the legal status of public servants?",
+          "Are Chief Inspectors and Inspectors subject to the Indian Penal Code?",
+          "Are Cheif Inspectors and Inspectors considered public servant?"
+      ],
+      "responses": [
+          "The Chief Inspector and all Inspectors are considered public servants within the meaning of the Indian Penal Code.",
+          "In accordance with the law, both the Chief Inspector and Inspectors hold the status of public servants as defined by the Indian Penal Code.",
+          "Yes, the Chief Inspector and all Inspectors fall under the category of public servants under the Indian Penal Code.",
+          "The Indian Penal Code recognizes the Chief Inspector and Inspectors as public servants.",
+          "The legal status of the Chief Inspector and Inspectors is that they are deemed public servants under the Indian Penal Code.",
+          "Under the law, the Chief Inspector and Inspectors are considered public servants as per the Indian Penal Code.",
+          "Yes, the Chief Inspector and Inspectors are subject to the Indian Penal Code, and they hold the legal status of public servants.",
+          "Being deemed a public servant under the Indian Penal Code carries certain legal implications and responsibilities."
+      ]
+    },
+    {
+      "tag": "chief_inspector_authorization_func_1952",
+      "patterns": [
+          "What powers does the Chief Inspector have regarding authorizing other Inspectors?",
+          "Explain how the Chief Inspector can delegate powers to other Inspectors.",
+          "Tell me about the process of Chief Inspector authorizing Inspectors' powers.",
+          "Can the Chief Inspector delegate powers to specific Inspectors or classes of Inspectors?",
+          "What restrictions or conditions can the Chief Inspector impose when authorizing powers to other Inspectors?",
+          "How does the Chief Inspector seek approval from the Central Government for authorizing powers?",
+          "What are the specific powers that the Chief Inspector can delegate to other Inspectors?",
+          "What is the role of the Central Government in the Chief Inspector's authorization of powers?",
+          "How can Chief Inspector authorize Inspectors to exercise powers?",
+          "What powers can Chief Inspector delegate to Inspectors?",
+          "Explain the Chief Inspector's role in authorizing Inspector powers.",
+          "Can Chief Inspector grant powers to specific Inspectors or classes?",
+          "What are the conditions for Chief Inspector's authorization of powers?",
+          "How does Chief Inspector seek Central Government approval for authorizing powers?",
+          "What restrictions can Chief Inspector impose when authorizing powers?",
+          "What is the purpose of Chief Inspector's written orders for authorization?"
+      ],
+      "responses": [
+          "The Chief Inspector, with the approval of the Central Government, can issue written orders authorizing specific Inspectors or classes of Inspectors to exercise certain powers under this Act, excluding those related to appeals.",
+          "The Chief Inspector has the authority to delegate powers to other Inspectors, subject to approval from the Central Government and the imposition of suitable restrictions or conditions through written orders.",
+          "The process involves the Chief Inspector obtaining approval from the Central Government and issuing written orders to authorize particular Inspectors or classes of Inspectors to exercise specific powers, excluding those related to appeals.",
+          "Yes, the Chief Inspector can delegate powers to either named Inspectors or specified classes of Inspectors, as per the written order issued.",
+          "When authorizing powers to other Inspectors, the Chief Inspector can impose suitable restrictions or conditions to ensure the proper exercise of those powers.",
+          "To seek approval from the Central Government for authorizing powers, the Chief Inspector follows established procedures and provides the necessary documentation.",
+          "The Chief Inspector can specify the particular powers that are delegated to other Inspectors in the written order, excluding those related to appeals.",
+          "The Central Government plays a crucial role in approving the Chief Inspector's authorization of powers, ensuring compliance with established procedures."
+      ]
+    },
+    {
+      "tag": "chief_inspector_restrict_powers_1952",
+      "patterns": [
+          "What authority does the Chief Inspector have to restrict powers of other Inspectors?",
+          "Explain how the Chief Inspector can prohibit or restrict the exercise of powers by other Inspectors.",
+          "Tell me about the process of Chief Inspector restricting powers of specified Inspectors.",
+          "Can the Chief Inspector prohibit specific powers for named Inspectors or classes of Inspectors?",
+          "What are the conditions or restrictions the Chief Inspector can impose when restricting powers of other Inspectors?",
+          "How does the Chief Inspector issue orders to restrict powers of Inspectors?",
+          "What powers can the Chief Inspector prohibit or restrict?",
+          "What is the role of the Central Government in Chief Inspector's orders to restrict powers?"
+      ],
+      "responses": [
+          "The Chief Inspector has the authority to issue written orders prohibiting or restricting the exercise of powers conferred on Inspectors under this Act for specific Inspectors or classes of Inspectors.",
+          "Chief Inspector can prohibit or restrict the exercise of powers by other Inspectors through written orders, specifying the conditions and restrictions, if any.",
+          "The process involves the Chief Inspector issuing written orders to prohibit or restrict the exercise of powers for named Inspectors or specified classes of Inspectors.",
+          "Yes, the Chief Inspector can prohibit specific powers for either named Inspectors or specified classes of Inspectors, as mentioned in the written order.",
+          "When restricting powers of other Inspectors, the Chief Inspector can impose suitable conditions or restrictions to ensure compliance.",
+          "The Chief Inspector issues orders in writing to restrict the exercise of powers, providing clarity and specificity on the restrictions.",
+          "The Chief Inspector can prohibit or restrict various powers conferred on Inspectors under this Act, as per the written order.",
+          "The Central Government plays a role in overseeing the Chief Inspector's orders to restrict powers, ensuring alignment with established procedures and guidelines."
+      ]
+    },
+    {
+      "tag": "chief_inspector_area_declaration_1952",
+      "patterns": [
+          "What is the role of the Chief Inspector in declaring local areas for Inspector powers?",
+          "Explain how the Chief Inspector designates areas for the exercise of Inspector powers.",
+          "Tell me about the process of Chief Inspector declaring local areas for Inspector powers.",
+          "Can the Chief Inspector specify the group or class of mines where Inspectors exercise powers?",
+          "What provisions govern the Chief Inspector's declaration of areas for Inspector powers?",
+          "How does the Chief Inspector issue orders for declaring areas for Inspector powers?",
+          "What factors influence the Chief Inspector's decisions on area declaration?",
+          "What is the significance of the Chief Inspector's role in designating areas for Inspector powers?",
+          "How does the Chief Inspector declare areas for Inspector powers?",
+          "What governs the Chief Inspector's area declarations?",
+          "Can Chief Inspector specify mines for Inspector powers?",
+          "Explain Chief Inspector's role in area designation.",
+          "Explain the role of cheif inspector in area designation."
+      ],
+      "responses": [
+          "The Chief Inspector has the responsibility to declare local areas or groups/classes of mines where Inspectors can exercise their respective powers, subject to other provisions in this section.",
+          "Chief Inspector designates areas for the exercise of Inspector powers through a defined process and written orders.",
+          "The process involves the Chief Inspector issuing written orders to specify local areas or groups/classes of mines where Inspectors exercise powers.",
+          "Yes, the Chief Inspector can specify the group or class of mines with respect to which Inspectors exercise their powers.",
+          "The Chief Inspector's area declaration is subject to the provisions outlined in this section, ensuring compliance with established rules.",
+          "Chief Inspector issues orders in writing to declare areas for Inspector powers, ensuring clarity and specificity in the designation.",
+          "Various factors, including safety, workload, and operational requirements, influence the Chief Inspector's decisions on area declaration.",
+          "The Chief Inspector's role in designating areas for Inspector powers is essential for effective oversight and regulation of mining activities."
+      ]
+    },
+    {
+      "tag": "function_of_inspector_1952",
+      "patterns": [
+        "What is the function of an inspector?",
+        "Can you specify the function of an inspector",
+        "What does an inspector do?",
+        "Explain the functions of a inspector?"
+      ],
+      "responses": [
+        "Chief Inspector's Functions:\n1. Authorization of Powers: The Chief Inspector can authorize specific Inspectors or classes of Inspectors to exercise certain powers, excluding appeals, with Central Government approval and conditions as deemed fit.\n2.Prohibition or Restriction: The Chief Inspector can issue written orders to prohibit or restrict specific powers for named Inspectors or specified classes of Inspectors.\n3. Area Declaration: The Chief Inspector designates the local areas or groups/classes of mines where Inspectors can exercise their respective powers, following established rules."
+      ]
+    },
+    {
+      "tag": "inspector_powers",
+      "patterns": [
+          "What powers do Chief Inspectors and Inspectors have under this Act?",
+          "Explain the roles of Chief Inspectors and Inspectors in mine inspections.",
+          "Can Chief Inspectors and Inspectors enter and inspect mines at any time?",
+          "What is the purpose of examining the state and condition of mines by Inspectors?",
+          "What powers can Chief Inspectors and Inspectors exercise as per regulations?",
+          "Are individuals compelled to answer questions during inspections?",
+          "When can Chief Inspectors and Inspectors search places and take possession of materials or records?",
+          "How do the provisions of the Code of Criminal Procedure apply to searches or seizures under this Act?"
+      ],
+      "responses": [
+          "Chief Inspectors and Inspectors have various powers, including making examinations, inquiries, inspections, and inquiries to ensure compliance with the Act, regulations, rules, and bye-laws.",
+          "They can enter, inspect, and examine mines, ensuring not to unreasonably impede or obstruct mining operations.",
+          "Inspectors examine the state, ventilation, and safety of mines and take necessary statements to ensure the health and safety of mine workers.",
+          "They can exercise additional powers as prescribed by regulations made by the Central Government.",
+          "No person can be compelled to incriminate themselves during inspections.",
+          "If an offence is suspected, Chief Inspectors and Inspectors can search places and seize relevant materials or records, subject to applicable legal procedures.",
+          "The provisions of the Code of Criminal Procedure apply to searches and seizures under this Act as they do to warrant-based searches."
       ]
     },
     {
