@@ -1,0 +1,226 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's Up?",
+        "Namaste",
+        "Nomoshkar"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome, how may I help you today?",
+        "Namaste, it is my pleasure to be at your service"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for conversing with me",
+        "Have a nice day",
+        "Bye! Come back again if you have any other queries.",
+        "I hope your problem has been solved, have a nice day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What is your purpose?",
+        "What do you sell?",
+        "Who are you?",
+        "What are you?"
+      ],
+      "responses": [
+        "I am MineChat, a chatbot whose sole purpose is to clear doubts and queries regarding any law related to the mining industry in India.",
+        "I clear doubts regarding mining industry laws in India."
+      ]
+    },
+    {
+      "tag": "Minesact1952def",
+      "patterns": [
+        "What is the Mines Act 1952?",
+        "What is the shortened name of The Mines Act 1952?",
+        "What is the use of Mines act 1952."
+      ],
+      "responses": [
+        "In Short also known as Mines Act, 1952 is an Act to amend and consolidate the law relating to the regulation of labour and safety in mines."
+      ]
+    },
+    {
+      "tag": "extent1952",
+      "patterns": [
+        "Where is the coal act 1952 applicatble?",
+        "What is the extent of Coal act 1952?",
+        "is it applicable throughout India?"
+      ],
+      "responses": [
+        "The Mines Act 1952 extends to the whole of India "
+      ]
+    },
+    {
+      "tag": "Kashmir1952",
+      "patterns": [
+        "Is Coal Act 1952 applicable in Jammu and Kashmir?",
+        "Where is Coals Act 1952 not applicable?",
+        "When was Except Jammu Kashmir word omitted?"
+      ],
+      "responses": [
+        "The words 'except the State of Jammu and Kashmir' omitted by Act 25 of 1968, s. 2 and The Schedule.(w.e.f. 15-8-1968) and currently applicable everywhere in India."
+      ]
+    },
+    {
+      "tag": "adult1952",
+      "patterns": [
+        "Who is an adult?",
+        "What is an adult?",
+        "What is the criteria for being an adult?",
+        "When is someone an adult?"
+      ],
+      "responses": [
+        "'adult' means a person who has completed his eighteenth year.(ref.Coal act 1952 section 2)"
+      ]
+    },
+    {
+      "tag": "agent1952",
+      "patterns": [
+        "Who is refered to as an agent in act 1952?",
+        "Who is an agent?",
+        "Agent when used in relation to a mine, means every person whether appointed as such or not, who, acting or purporting to act onbehalf of the owner, takes part in the management, control, supervision or direction of the mine or of any part thereof"
+      ],
+      "responses": [
+        "Agent is a person acting on the behalf of the owner, appointed or not is involved in management, control, supervion or direction of mine."
+      ]
+    },
+    {
+      "tag": "cheifinspectordef1952",
+      "patterns": [
+        "Who is cheif inspector of the mines?",
+        "Who is cheif inspector"
+      ],
+      "responses": [
+        "Chief Inspector means the Chief Inspector of Mines appointed under this Act by the government."
+      ]
+    },
+    {
+      "tag": "daydef1952",
+      "patterns": [
+        "What is a day?",
+        "How long is a day?",
+        "Define day",
+        "What is considered as day?"
+      ],
+      "responses": [
+        "'day' means a period of twenty-four hours beginning at midnight."
+      ]
+    },
+    {
+      "tag": "Districtmagistratedef",
+      "patterns": [
+        "Who is a district magistrate?",
+        "Who performs the dutirs of the district magistrate?",
+        "district magistrate"
+      ],
+      "responses": [
+        "'district magistrate' means, in a presidency-town, the person appointed by the Central Government to perform the duties of a district magistrate under this Act in that town"
+      ]
+    },
+    {
+      "tag": "employeddef",
+      "patterns": [
+        "Who is a employee in mines?",
+        "Who can be said to be employed in a mine.",
+        "How can one be a mine employee?",
+        "Define mine employee"
+      ],
+      "responses": [
+        "a person is said to be 'employed' in a mine who works as the manager or who works under appointment by the owner, agent or manager of the mine or with the knowledge of the manager."
+      ]
+    },
+    {
+      "tag": "employedcriteria",
+      "patterns": [
+        "What is the criteria for someone to be employed.",
+        "Criteria of employement",
+        "in any mining operations(including the concomitant operations of handling and transport of minerals up to the point of despatch and of gathering sand and transport thereof to the mine)",
+        "in operations or services relating to the development of the mine"
+      ],
+      "responses": [
+        "A person is said to be employed if involved in: \n1. in any mining operation\n2. in operations or services relating to the development of the mine\n3. in operating, servicing, maintaining or repairing any part of any machinery used in or about the mine\n4.in operations, within the premises of the mine, of loading for despatch of minerals\n5. in any office of the mine, health, welfare, sanitary or conservancy or any operation connected to the mines"
+      ]
+    },
+    {
+      "tag": "employeeexcluded",
+      "patterns": [
+        "Who are excluded from being employee or employed?",
+        "Who are not considered employed?",
+        "When is someone said to be not employed",
+        "Not a employee?",
+        "When is someone not employed in mining industry."
+      ],
+      "responses": [
+        "People who are not directly connected to the works in mines like builing of roads,wells, construction of houses, etc."
+      ]
+    },
+    {
+      "tag": "inspectordef",
+      "patterns": [
+        "Who is an inspector in mining industry?",
+        "What is inspector?",
+        "Inspector define",
+        "Can district magistrate be a inspector?"
+      ],
+      "responses": [
+        "'Inspector' means an Inspector of Mines appointed under this Act, and includes a district magistrate when exercising any power or performing any duty of an Inspector which he is empowered by this Act to exercise or perform."
+      ]
+    },
+    {
+      "tag": "Minedef1952",
+      "patterns": [
+        "What is Mine?",
+        "What do you mean by Mines?",
+        "Define Mines."
+      ],
+      "responses": [
+        "Mines means any excavation where any operation for the purpose of searching for or obtaining minerals has been or is being carried on."
+      ]
+    },
+    {
+      "tag": "Minescriteria1952",
+      "patterns": [
+        "What are the criteria of a mine",
+        "What are included in mines",
+        "Criteria of a mine",
+        "Criteria of being a mine."
+      ],
+      "responses": [
+        "Mines include:\n1. all borings, bore holes, oil wells and accessory crude conditioning plants, including the pipe conveying mineral oil within the oilfields\n2. all shafts, in or adjacent to and belonging to a mine, whether in the course of being sunk or not\n3. all levels and inclined planes in the course of being driven\n4. all open cast workings\n5. all conveyors or aerial rope ways provided for the bringing into or removal from a mine of minerals or other articles or for the removal of refuse therefrom.\n6. all adits, levels, planes, machinery, works, railways, tramways and sidings in or adjacent to and belonging to a mine.\n7. all protective works being carried out in or adjacent to a mine\n8. all workshops and stores situated within the precincts of a mine and under the same management and used primarily for the purposes connected with that mine or a number of mines under the same management.\n9.all power stations, transformer sub-stations, convertor stations, rectifier stations and accumulator storage stations for supplying electricity solely or mainly for the purpose of working the mine or a number of mines under the same management.\n10.  any premises for the time being used for depositing sand or other material for use in a mine or for depositing refuse from a mine or in which any operations in connection with such sand, refuse or other material is being carried on, being premises exclusively occupied by the owner of the mine.\n11. any premises in or adjacent to and belonging to a mine."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool."
+      ]
+    }
+  ]
+}
