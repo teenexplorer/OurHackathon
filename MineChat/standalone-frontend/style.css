@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
+
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -21,11 +26,22 @@ body {
 
 /* CHATBOX
 =============== */
-.chatbox {
-    position: absolute;
+/*.chatbox {
+    position: center;
     bottom: 30px;
     right: 30px;
+}*/
+
+.chatbox {
+    height: 1000;
+    margin: auto;
+    display: flex;
+    width: 1000;
+    padding: 140px;
 }
+
+
+
 
 /* CONTENT IS CLOSE */
 .chatbox__support {
@@ -99,7 +115,7 @@ body {
 .chatbox__support {
     background: #f9f9f9;
     height: 450px;
-    width: 350px;
+    width: 1000px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
